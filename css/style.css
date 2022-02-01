@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 60, 0);
+    margin-top: 60px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 60, 0);
+}
